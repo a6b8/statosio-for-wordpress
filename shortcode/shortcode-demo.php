@@ -4,7 +4,7 @@
  *
  * Write [link] in your post editor to render this shortcode.
  *
- * @package	 ABS
+ * @package	 P134
  * @since    1.0.0
  */
 

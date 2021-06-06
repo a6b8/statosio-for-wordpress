@@ -1,17 +1,17 @@
 <?php
 /**
- * Plugin Name:       Statosio.js Charts as Shortcut
- * Plugin URI:        https://www.github.com/a6b8/statosio-wordpress
- * Description:       Statosio generate charts in a .svg format. Works with prawn-svg to generate .pdf documents.
- * Version:           0.0.1
+ * Plugin Name:       statosio.js for Wordpress Shortcodes
+ * Plugin URI:        https://www.github.com/a6b8/statosio.wp
+ * Description:       Statosio for Wordpress is based on statosio.js and helps to generate simple charts, with Wordpress [shortcodes]
+ * Version:           0.1.0
  * Author:            Andreas Banholzer
  * Author URI:        https://www.13plus4.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       ABS
+ * Text Domain:       P134
  *
  * @link              https://www.github.com/a6b8/statosio-wordpress
- * @package           ABS
+ * @package           P134
  */
 
 // If this file is called directly, abort.
@@ -25,20 +25,20 @@ if ( ! defined( 'WPINC' ) ) {
  * @since 1.0.0
  */
 // Plugin version.
-if ( ! defined( 'ABS_VERSION' ) ) {
-	define( 'ABS_VERSION', '2.0.0' );
+if ( ! defined( 'P134_VERSION' ) ) {
+	define( 'P134_VERSION', '2.0.0' );
 }
 
-if ( ! defined( 'ABS_NAME' ) ) {
-	define( 'ABS_NAME', trim( dirname( plugin_basename( __FILE__ ) ), '/' ) );
+if ( ! defined( 'P134_NAME' ) ) {
+	define( 'P134_NAME', trim( dirname( plugin_basename( __FILE__ ) ), '/' ) );
 }
 
-if ( ! defined( 'ABS_DIR' ) ) {
-	define( 'ABS_DIR', WP_PLUGIN_DIR . '/' . ABS_NAME );
+if ( ! defined( 'P134_DIR' ) ) {
+	define( 'P134_DIR', WP_PLUGIN_DIR . '/' . P134_NAME );
 }
 
-if ( ! defined( 'ABS_URL' ) ) {
-	define( 'ABS_URL', WP_PLUGIN_URL . '/' . ABS_NAME );
+if ( ! defined( 'P134_URL' ) ) {
+	define( 'P134_URL', WP_PLUGIN_URL . '/' . P134_NAME );
 }
 
 
@@ -47,7 +47,7 @@ if ( ! defined( 'ABS_URL' ) ) {
  *
  * @since 1.0.0
  */
-require_once( ABS_DIR . '/shortcode/shortcode-demo.php' );
+require_once( P134_DIR . '/shortcode/shortcode-demo.php' );
 
 
 /**
@@ -55,4 +55,4 @@ require_once( ABS_DIR . '/shortcode/shortcode-demo.php' );
  *
  * @since 1.0.0
  */
-require_once( ABS_DIR . '/shortcode/shortcode-chart.php' );
+require_once( P134_DIR . '/shortcode/shortcode-chart.php' );
