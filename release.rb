@@ -1,30 +1,23 @@
 require 'zip'
-require 'set'
 
-version = File.read( 'statosio.php' )
-    .split("\n")
-    .select { | l | l.start_with?(' * Version: ') }[ 0 ]
+hash = {
+    directory: './',
+    output: nil
+}
+
+hash[:output] = ''
+hash[:output] << './releases/statosio-'
+hash[:output] << File.read( 'statosio.php' )
+    .split( "\n" )
+    .select { | l | l.start_with?( ' * Version: ' ) }[ 0 ]
     .match( /(\d+)\.(\d+)\.(\d+)/ )
+    .to_s
+hash[:output] << '.zip'
 
-puts version
-
-paths = Dir[ "./**/*.*" ]
-    .reject { | a | a.include?('release') }
-    .to_set
-    .to_a
-
-
-path = "./releases/test.zip"
-Zip::File.open( path, Zip::File::CREATE ) do | zipfile |
-    paths.each do | path |
-        item = {}
-        item[:name] = File.basename( path )   
-        item[:folder] = ''
-        puts 'Here'
-        puts item
-        puts path
-        zipfile.add( item[:name], path )
-        puts 'THERE'
-    end
-    zipfile.get_output_stream("myFile") { |f| f.write "myFile contains just this" }
+File.delete( hash[:output] ) if File.exist?( hash[:output] )
+Zip::File.open( hash[:output], Zip::File::CREATE ) do | zip |
+    Dir[ File.join( hash[:directory], "**", "**" ) ]
+    .reject { | p | p.include?( 'release' ) }
+    .each { | file | zip.add( file.sub( "#{ hash[:directory] }/", "" ), file ) }
 end
+
