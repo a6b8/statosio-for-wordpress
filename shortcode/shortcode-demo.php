@@ -18,7 +18,7 @@ if ( ! function_exists( 'chart_demo' ) ) {
 	/**
 	 * Shortcode Function
 	 *
-	 * @param  Attributes $atts l|t URL TEXT.
+	 * @param  Attributes
 	 * @return string
 	 * @since  1.0.0
 	 */
