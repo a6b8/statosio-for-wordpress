@@ -36,16 +36,15 @@ if ( ! function_exists( 'chart' ) ) {
 		$_dataset = $_atts['dataset'];
 
 		// x
-		$_x = $_atts['x'];
+		$_x = urldecode( $_atts['x'] );
 
 		// y
 		$_y = $_atts['y'];
 		
 		// options
-		$_options = $_atts['options'];
+		$_options = urldecode( $_atts['options'] );
 
 		$_return = "<div id=\"d3_statosio\"></div>
-		<script>console.log(\"test\")</script>
 		<script src=\"https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.js\"></script>
 		<script src=\"https://cdnjs.cloudflare.com/ajax/libs/statosio/0.9/statosio.js\"></script>
 		<script>
@@ -53,8 +52,8 @@ if ( ! function_exists( 'chart' ) ) {
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    \"{$_x}\", 
                     \"{$_y}\",
+					{$_x}, 
                     {$_options}
                 )
             } )

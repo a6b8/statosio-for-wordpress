@@ -3,7 +3,7 @@
  * Plugin Name:       Statosio Shortcodes
  * Plugin URI:        https://www.github.com/a6b8/statosio.wp
  * Description:       Statosio for Wordpress is based on statosio.js and helps to generate simple charts with Wordpress shortcodes
- * Version:           0.2.0
+ * Version:           0.3.6
  * Author:            Andreas Banholzer
  * Author URI:        https://www.13plus4.com
  * License:           GPL-2.0+
@@ -56,3 +56,11 @@ require_once( P134_DIR . '/shortcode/shortcode-demo.php' );
  * @since 1.0.0
  */
 require_once( P134_DIR . '/shortcode/shortcode-chart.php' );
+
+
+/**
+ * Link.
+ *
+ * @since 1.0.0
+ */
+require_once( P134_DIR . '/option_page/index.php' );
