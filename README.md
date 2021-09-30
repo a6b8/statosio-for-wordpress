@@ -18,6 +18,26 @@ Statosio for Wordpress is based on [statosio.js](https://github.com/a6b8/statosi
 
 <br>
 
+<a href="#headline">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/table-of-contents.svg" height="38px" name="table-of-contents" alt="Table of Contents">
+</a>
+<br>
+
+1. [Examples](#examples)<br>
+1. [Quickstart](#quickstart)<br>
+1. [Code Generator](#code-generator)
+1. [Introduction](#introduction)<br>
+1. [Documentation](#documentation)<br>
+1. [Chart Types](#chart-types)<br>
+1. [Parameters](#parameters)<br>
+1. [Options](#options)
+1. [Contributing](#contributing)
+1. [License](#license)<br>
+1. [Code of Conduct](#code-of-conduct)<br>
+1.  [Support my Work](#support-my-work)<br>
+
+<br>
+
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/quickstart.svg" height="38px" name="quickstart" alt="Quickstart">
 </a>
@@ -194,7 +214,7 @@ Bug reports and pull requests are welcome on GitHub at https:https://raw.githubu
 </a>
 
 - Proof of Concept, not battle-tested.
-<br>
+
 <br>
 
 <a href="#table-of-contents">
