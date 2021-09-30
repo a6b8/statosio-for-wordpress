@@ -204,7 +204,7 @@ Statosio for Wordpress is based on [statosio.js](https://github.com/a6b8/statosi
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/contributing.svg" height="38px" name="contributing" alt="Contributing">
 </a>
 
-Bug reports and pull requests are welcome on GitHub at https:https://raw.githubusercontent.com/statosio-for-wordpress. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https:https://raw.githubusercontent.com/statosio-for-wordpress/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https:https://raw.githubusercontent.com/statosio-for-wordpress. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://raw.githubusercontent.com/statosio-for-wordpress/blob/master/CODE_OF_CONDUCT.md).
 
 <br>
 
