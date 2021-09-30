@@ -11,7 +11,7 @@ function add_options() {
 //add actions
 add_action( 'admin_init', 'theme_options_add' );
 add_action( 'admin_menu', 'add_options' );
- 
+
 //start settings page
 function theme_options_page() {
     

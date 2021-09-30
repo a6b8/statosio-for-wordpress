@@ -1,4 +1,6 @@
-# Statosio for Wordpress Shortcodes
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/statosio-for-wordpress-shortcodes.svg" height="38px" name="headline" alt="Statosio for Wordpress Shortcodes">
+</a>
 
 Statosio for Wordpress is based on [statosio.js](https://github.com/a6b8/statosio.js) and helps to generate simple charts, with Wordpress ```[shortcodes]```
 
@@ -14,63 +16,95 @@ Statosio for Wordpress is based on [statosio.js](https://github.com/a6b8/statosi
 **Documentation:** 
 [https://d3.statosio.com](https://d3.statosio.com/)
 
+<br>
 
-## Quickstart
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/quickstart.svg" height="38px" name="quickstart" alt="Quickstart">
+</a>
+
 - Install Plugin: [wordpress.com/plugins/statosio](https://wordpress.org/plugins/search/statosio/)
 - Create a Post
 - Insert ```[statosio-demo]```
 - Preview your Post
 
+<br>
 
-## Chart Types
-### Bar
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/chart-types.svg" height="38px" name="chart-types" alt="Chart Types">
+</a>
+
+**Bar Chart**
+
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-bar-400.jpg)<br>
 [Create simple bar chart](https://d3.statosio.com/tutorials/simple-bar-chart.html)
 ```php
 [statosio dataset='https://d3.statosio.com/data/performance.json' x='name' y='mobile' options='{"showAverage":false}']
 ```
-### Point
+<br>
+
+**Point Chart**
+
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-point-400.jpg)<br>
 [Create a simple point chart](https://d3.statosio.com/tutorials/simple-point-chart.html)
 ```php
 [statosio dataset='https://d3.statosio.com/data/performance.json' x='name' y='mobile' options='                    {"showDataAsCircle":true,"showAverage":false,"viewDomId":"intermediate-show"}']
 ```
-### Stacked
+
+<br>
+
+**Stacked Chart**
+
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-stacked-bar-400.jpg)<br>
 [Create simple stacked bar chart](https://d3.statosio.com/tutorials/simple-stacked-bar-chart.html)
 ```php
 [statosio dataset='https://d3.statosio.com/data/performance.json' x='name' y='mobile,desktop' options='{"showAverage":false}']
 ```
 
-## Features
-### Select
+<br>
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/features.svg" height="38px" name="features" alt="Features">
+</a>
+
+**Select**
+
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-select-400.jpg)<br>
 [Select and change position of columns](https://d3.statosio.com/tutorials/select-data.html)
 ```php
 [statosio dataset='https://d3.statosio.com/data/performance.json' x='name' y='mobile,desktop' options='{"dataXSelectors":["Data", "Spock"],"dataSortSelection" : "start","showAverage":false}']
 ```
-### Sort Data
+
+**Sort Data**
+
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-sort-400.jpg)<br>
 [Sort dataset by values](https://d3.statosio.com/tutorials/sort-data.html)
 ```php
 [statosio dataset='https://d3.statosio.com/data/performance.json' x='name' y='mobile' options='{"dataSortCurrent":"values","dataSortByValues":"ascending","showAverage":false}']
 ```
-### Change Style
+
+**Change Style**
+
 ![# d3.statosio](https://d3.statosio.com/assets/images/example-customize-400.jpg)<br>
 [Change style to dark-mode](https://d3.statosio.com/tutorials/change-style.html)
 ```php
 [statosio dataset='https://d3.statosio.com/data/performance.json' x='name' y='mobile' options='{ "styleColorSelectorsChart":["#E2B08E","#CC8074"],"styleColorCanvasBackground":"none","styleColorGridline":"#2F3138","styleStrokeGridline":1,"styleColorFont":"#BABABA","styleColorSelectorsText":["#E2B08E","#BABABA"],"showAverage" : false}']
 ```
 
-## Import your Data
+<br>
 
-***Pseudocode:***
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/import-your-data.svg" height="38px" name="import-your-data" alt="Import your Data">
+</a>
+<br>
+<br>
 
-Please note:
-- Replace ```#{}``` with your data.
-- If have more then one "y" key use: ```"key1,key2,[...]"```
-- Write your Code in one line 
+> Please note:
+>- Replace ```#{}``` with your data.
+>- If have more then one "y" key use: ```"key1,key2,[...]"```
+>- Write your Code in one line 
+<br>
 
+**Pseudocode:**
 ```
 [statosio dataset='#{URL}' x='#{X_KEY}' y="#{Y_KEYS}" options='#{OPTIONS}' ]
 ```
@@ -82,8 +116,11 @@ Please note:
 [statosio dataset='https://d3.statosio.com/data/performance.json' x='name' y="mobile,desktop" options='{"showTitle":true}']
 ```
 
+<br>
 
-## Parameters
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/parameters.svg" height="38px" name="parameters" alt="Parameters">
+</a>
 
 | | **Value** | **Type** | **Required** |
 |------:|:------|:------| :------|
@@ -94,7 +131,9 @@ Please note:
 
 <br>
 
-## Options
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/options.svg" height="38px" name="options" alt="Options">
+</a>
 
 |   | **Option** | **Default** | **Examples** | **Description** |
 |:--|:--|:--|:--|:--|
@@ -140,7 +179,42 @@ Please note:
 | D.15. | [styleOtherCircleChartRadius](https://d3.statosio.com/options/style__other__circle_chart_radius.html) | 4 | [A](https://d3.statosio.com/options/style__other__circle_chart_radius.html#example-a), [B](https://d3.statosio.com/options/style__other__circle_chart_radius.html#example-b) | Set radius of circle. |
 | D.16. | [styleOtherRangeXTextRotation](https://d3.statosio.com/options/style__other__range_x_text_rotation.html) | -45 | [A](https://d3.statosio.com/options/style__other__range_x_text_rotation.html#example-a), [B](https://d3.statosio.com/options/style__other__range_x_text_rotation.html#example-b) | Set text rotation of the x axis. |
 
+<br>
 
-## Contributing
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/contributing.svg" height="38px" name="contributing" alt="Contributing">
+</a>
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/statosio-wordpress. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https:https://raw.githubusercontent.com/statosio-for-wordpress. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https:https://raw.githubusercontent.com/statosio-for-wordpress/blob/master/CODE_OF_CONDUCT.md).
+
+<br>
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/limitations.svg" height="38px" name="limitations" alt="Limitations">
+</a>
+
+- Proof of Concept, not battle-tested.
+<br>
+<br>
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/license.svg" height="38px" name="license" alt="License">
+</a>
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+<br>
+<br>
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/code-of-conduct.svg" height="38px" name="code-of-conduct" alt="Code of Conduct">
+</a>
+    
+Everyone interacting in the statosio-for-wordpress project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https:https://raw.githubusercontent.com/statosio-for-wordpress/blob/master/CODE_OF_CONDUCT.md).
+<br>
+<br>
+
+<a href="#table-of-contents">
+<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/support-my-work.svg" height="38px" name="support-my-work" alt="Support my Work">
+</a>
+    
+Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
