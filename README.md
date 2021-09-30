@@ -23,18 +23,17 @@ Statosio for Wordpress is based on [statosio.js](https://github.com/a6b8/statosi
 </a>
 <br>
 
-1. [Examples](#examples)<br>
 1. [Quickstart](#quickstart)<br>
-1. [Code Generator](#code-generator)
-1. [Introduction](#introduction)<br>
-1. [Documentation](#documentation)<br>
-1. [Chart Types](#chart-types)<br>
-1. [Parameters](#parameters)<br>
-1. [Options](#options)
-1. [Contributing](#contributing)
-1. [License](#license)<br>
-1. [Code of Conduct](#code-of-conduct)<br>
-1.  [Support my Work](#support-my-work)<br>
+2. [Chart Types](#chart-types)
+3. [Features](#features)<br>
+4. [Import your Data](#import-your-data)<br>
+5. [Parameters](#parameters)<br>
+6. [Options](#options)
+7. [Contributing](#contributing)
+8. [Limitations](#limitations)
+9. [License](#license)<br>
+10. [Code of Conduct](#code-of-conduct)<br>
+11. [Support my Work](#support-my-work)<br>
 
 <br>
 
