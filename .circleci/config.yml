@@ -5,4 +5,4 @@ jobs:
     steps:
       - checkout
       - run: php --version
-      - run: index.php
+      - run: ./index.php
