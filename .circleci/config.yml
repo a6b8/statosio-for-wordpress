@@ -5,4 +5,4 @@ jobs:
     steps:
       - checkout
       - run: php --version
-      - run: php index.php
+      - run: php shortcode-chart.php
