@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/statosio-for-wordpress-shortcodes.svg" height="45px" name="headline" alt="#Statosio for Wordpress Shortcodes">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/statosio-for-wordpress/readme/headlines/headline.svg" height="45px" name="# Statosio for Wordpress" alt="Statosio for Wordpress Shortcodes">
 </a>
 
 Statosio for Wordpress is based on [statosio.js](https://github.com/a6b8/statosio.js) and helps to generate simple charts, with Wordpress ```[shortcodes]```
