@@ -18,6 +18,12 @@ Statosio for Wordpress is based on [statosio.js](https://github.com/a6b8/statosi
 
 <br>
 
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="45px" name="examples" alt="Examples">
+</a>
+
+<br>
+
 <a href="#headline">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="45px" name="table-of-contents" alt="Table of Contents">
 </a>
@@ -45,6 +51,12 @@ Statosio for Wordpress is based on [statosio.js](https://github.com/a6b8/statosi
 - Create a Post
 - Insert ```[statosio-demo]```
 - Preview your Post
+
+<br>
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/setup.svg" height="45px" name="setup" alt="Setup">
+</a>
 
 <br>
 
@@ -205,6 +217,12 @@ Statosio for Wordpress is based on [statosio.js](https://github.com/a6b8/statosi
 </a>
 
 Bug reports and pull requests are welcome on GitHub at https:https://raw.githubusercontent.com/statosio-for-wordpress. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://raw.githubusercontent.com/statosio-for-wordpress/blob/master/CODE_OF_CONDUCT.md).
+
+<br>
+
+<a href="#table-of-contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/credits.svg" height="45px" name="credits" alt="Credits">
+</a>
 
 <br>
 
